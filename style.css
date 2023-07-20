@@ -1,0 +1,132 @@
+/*Edición del título de la página y barra*/
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    color: hsl(0, 0%, 0%);
+    font-family: 'Signika', sans-serif;
+}
+
+.titulo{ 
+    color: indigo;
+    font-size: 48px;
+    text-align: center;
+}
+
+.header{
+    background-color: #BB90CF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 2px 5%;
+} 
+
+/*Edición del Logo*/
+.header .Logo img{
+    height: 75px;
+    width: auto;
+    border-radius: 3000px;
+    border-color: indigo;
+    border-style: dotted;
+    transition: all 0.3s; 
+}
+
+/*Cusor: poiter; permite que el curso sobre el elemento sea una manita*/
+.header .Logo{
+    cursor: pointer;        
+}
+
+/*img: hover: permite dar un efecto de movimiento como una transición*/
+.header .Logo img:hover{
+    transform: scale(1.1);
+}
+
+/*Edición del menú*/
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+/*display: inline-block: permite alinear los elementos de una lista en horizontal*/
+    display: inline-block;
+    padding: 0 15px;
+}
+
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color: indigo;
+/*text-decoration: none; te permite quita las lineas inferiores de los hipervinculos*/    
+    text-decoration: none;
+}
+
+/*a:hover{: en este casol, permite cambiar de color los elementos del menú al ser seleccionados*/
+.header .nav-links li a:hover{
+    color: whitesmoke;
+}
+
+/*Edición de la 1a imagen_1*/
+.contenedor{
+    display: flex;
+    justify-content: left;
+    align-items: center;    
+}
+
+.imagen_1{
+    width: 660px;
+    height: 460px;
+    border-radius: 500px;
+    border-color: indigo;
+    border-style: dotted;
+    margin: 30px;
+}
+
+.separador-txt{
+    margin-right: 100px;
+}
+
+/*Edición de la imagen_2*/
+.contenedor_2{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.imagen_2{
+    width: 560px;
+    height: 380px;
+    border-radius: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.separador-txt_2{
+    margin-right: 100px;
+}
+
+/*Edición de la imagen_3*/
+.contenedor_3{
+    display: flex;
+    justify-content: left;
+    align-items: center;    
+}
+
+.imagen_3{
+    width: 560px;
+    height: 380px;
+    border-radius: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.separador-txt_2{
+    margin-right: 100px;
+}
+
+/*Edición del footer*/
